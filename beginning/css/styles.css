@@ -286,13 +286,22 @@ footer img {
     .team-container {
         display: grid;
         gap: 10px;
-        grid-template-columns: repeat(3, minmax(auto, 1fr));
+        grid-template-columns: repeat(3, 1fr);
         justify-content: center;
+        align-items: center;
     }
     .team-block {
         text-align: center;
         align-items: center;
         width: 100%;
         margin-left: auto;
+    }
+    .team-block:nth-child(4) {
+        align-self: center;
+        margin-left: 50%;
+    }
+    .team-block:nth-child(5) {
+        align-self: center;
+        margin-left: 50%;
     }
 }

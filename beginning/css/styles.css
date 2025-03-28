@@ -223,3 +223,76 @@ footer {
 footer img {
     width: 35px;
 }
+
+@media (min-width: 576px) and (max-width: 767px) {
+    header {
+        visibility: collapse;
+    }
+    header .container {
+        height: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    header {
+        visibility: collapse;
+    }
+    header .container {
+        height: 0;
+        padding: 0;
+    }
+    .hero .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero img {
+        width: 80%;
+    }
+    .hero .hero-text {
+        width: 100%;
+    }
+    .feature-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+    .feature-block {
+        text-align: center;
+        background-color: #fff;
+        width: 100%;
+    }
+    .testimonials {
+        padding-bottom: 30px;
+    }
+    .testimonial-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .testimonial-block {
+        width: 100%;
+    }
+
+    .team {
+        padding-bottom: 20px;
+    }
+    .team img {
+        width: 80px;
+    }
+    .team-container {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(3, minmax(auto, 1fr));
+        justify-content: center;
+    }
+    .team-block {
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        margin-left: auto;
+    }
+}

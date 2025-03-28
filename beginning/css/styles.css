@@ -93,6 +93,7 @@ body.home {
     width: 300px;
 }
 .hero .hero-text {
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -297,11 +298,9 @@ footer img {
         margin-left: auto;
     }
     .team-block:nth-child(4) {
-        align-self: center;
         margin-left: 50%;
     }
     .team-block:nth-child(5) {
-        align-self: center;
         margin-left: 50%;
     }
 }
